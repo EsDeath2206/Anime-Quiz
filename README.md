@@ -1,70 +1,50 @@
-# Getting Started with Create React App
+# Anime Quiz App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Description
 
-## Available Scripts
+L'**Anime Quiz App** est une application interactive de quiz en React permettant aux utilisateurs de tester leurs connaissances sur différents animés. Elle propose une série de questions sur des animés populaires avec un système de points et des badges de performance. Le quiz offre deux modes : "Chrono" et "Survie", et conserve les scores des joueurs à travers le local storage.
 
-In the project directory, you can run:
+## Fonctionnalités
 
-### `npm start`
+- **Modes de jeu** : Choisissez entre le mode "Chrono" (temps limité) et "Survie" (répondez sans erreur pour survivre).
+- **Système de scoring** : Les scores sont enregistrés dans le local storage pour suivre la progression du joueur.
+- **Badges de performance** : Des badges sont attribués en fonction des performances du joueur (nombre de bonnes réponses, rapidité, etc.).
+- **Tableau des scores** : Un tableau permet de comparer les scores des joueurs.
+- **Questions variées** : Plus de 40 questions couvrant divers animés populaires avec des niveaux de difficulté croissants.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Prérequis
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Avant de commencer, assurez-vous d'avoir installé sur votre machine les éléments suivants :
 
-### `npm test`
+- **Node.js** (version 14 ou supérieure) - [Télécharger Node.js](https://nodejs.org)
+- **npm** (inclus avec Node.js)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Installation
 
-### `npm run build`
+1. Clonez ce repository sur votre machine locale :
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+   ```bash
+   git clone https://github.com/username/anime-quiz-app.git
+   ```
+```
+anime-quiz-app/
+│
+├── public/
+│   ├── index.html         # Fichier HTML principal
+│   └── favicon.ico        # Icône de l'application
+│
+├── src/
+│   ├── components/       
+│   │   ├── App.js         
+│   │   ├── Quiz.js       
+│   │   ├── Score.js      
+│   │   └── Table.js      
+│   │
+│   ├── assets/            
+│   │   └── logo.png
+│   │
+│   ├── App.css            
+│   └── index.js           
+│
+└── package.json           
+```
